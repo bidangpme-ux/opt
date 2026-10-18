@@ -1,0 +1,140 @@
+version: '3.8'
+
+# =====================================================================
+# SIPOPT - Sistem Informasi Pelaporan & Pengendalian OPT Tanggamus
+# CasaOS & Docker Compose Auto-Setup with PostgreSQL 16
+# =====================================================================
+# CasaOS Metadata (Automatic UI Rendering, Icon, and Free Port Discovery)
+x-casaos:
+  architectures:
+    - amd64
+    - arm64
+    - arm
+  main: sipopt-app
+  author: Dinas Tanaman Pangan dan Hortikultura Kab. Tanggamus
+  category: Pertanian & Ketahanan Pangan
+  description:
+    en_us: "SIPOPT Tanggamus - Agricultural Pest & Disease Reporting and Early Warning Information System with integrated 24/7 WhatsApp Bot and automated PostgreSQL database."
+    id_id: "SIPOPT Tanggamus - Sistem Informasi Pelaporan, Peringatan Dini, dan Pengendalian Serangan Hama/OPT Dinas Pertanian Kab. Tanggamus dengan WhatsApp Bot Otomatis 24 Jam dan Database PostgreSQL Mandiri."
+  tagline:
+    en_us: "Agricultural Pest Early Warning & WhatsApp Bot with PostgreSQL"
+    id_id: "Sistem Informasi Pengendalian OPT & WhatsApp Bot dengan PostgreSQL"
+  developer: Dinas Tanaman Pangan dan Hortikultura Kabupaten Tanggamus
+  icon: https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/leaf.svg
+  thumbnail: https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=600&q=80
+  title:
+    en_us: "SIGAP-OPT Tanggamus"
+    id_id: "SIGAP-OPT Tanggamus"
+  index: /
+  port_map: "7580"
+  scheme: http
+
+services:
+  # -------------------------------------------------------------
+  # 1. Aplikasi Utama (Web Dashboard + WhatsApp Bot Fonnte)
+  # -------------------------------------------------------------
+  sipopt-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: sipopt-tanggamus:latest
+    container_name: sipopt-app
+    restart: unless-stopped
+    ports:
+      # Port dikunci ke 7580 (bebas dari konflik port 3000 yang sudah dipakai aplikasi lain)
+      - "${SIPOPT_PORT:-7580}:7580"
+    environment:
+      - NODE_ENV=production
+      - PORT=7580
+      - AUTO_PORT=true
+      - FONNTE_TOKEN=${FONNTE_TOKEN:-Bye1QhoUjiZ7k4SXDcwn}
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+      # Otomatis terhubung ke container PostgreSQL melalui Docker internal network
+      - DATABASE_URL=postgresql://${POSTGRES_USER:-sipopt}:${POSTGRES_PASSWORD:-sipopt_secret_pass_2026}@sipopt-postgres:5432/${POSTGRES_DB:-sipopt_db}
+      - PGHOST=sipopt-postgres
+      - PGPORT=5432
+      - PGUSER=${POSTGRES_USER:-sipopt}
+      - PGPASSWORD=${POSTGRES_PASSWORD:-sipopt_secret_pass_2026}
+      - PGDATABASE=${POSTGRES_DB:-sipopt_db}
+    volumes:
+      # Penyimpanan persisten untuk data laporan, konfigurasi, dan cadangan data
+      - ./data:/app/data
+    depends_on:
+      sipopt-postgres:
+        condition: service_healthy
+    networks:
+      - sipopt-network
+    x-casaos:
+      envs:
+        - container: PORT
+          description:
+            en_us: "Internal web server listening port"
+            id_id: "Port internal server web"
+        - container: DATABASE_URL
+          description:
+            en_us: "PostgreSQL Database Connection String"
+            id_id: "Koneksi database PostgreSQL otomatis"
+      ports:
+        - container: "7580"
+          description:
+            en_us: "Web Dashboard & WhatsApp Bot UI"
+            id_id: "Dashboard Web & Panel Bot WhatsApp"
+      volumes:
+        - container: /app/data
+          description:
+            en_us: "Persistent WhatsApp sessions, auth keys, and local backup files"
+            id_id: "Penyimpanan persisten sesi WhatsApp, kunci auth Baileys, dan backup data"
+
+  # -------------------------------------------------------------
+  # 2. Database PostgreSQL 16 (Relasional Mandiri & Cepat)
+  # -------------------------------------------------------------
+  sipopt-postgres:
+    image: postgres:16-alpine
+    container_name: sipopt-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-sipopt}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-sipopt_secret_pass_2026}
+      POSTGRES_DB: ${POSTGRES_DB:-sipopt_db}
+      PGDATA: /var/lib/postgresql/data/pgdata
+    volumes:
+      # Persistensi data PostgreSQL di CasaOS
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      # Expose port 5432 ke host (opsional untuk diakses via DBeaver / pgAdmin)
+      - "${POSTGRES_HOST_PORT:-5432}:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-sipopt} -d ${POSTGRES_DB:-sipopt_db}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    networks:
+      - sipopt-network
+    x-casaos:
+      envs:
+        - container: POSTGRES_USER
+          description:
+            en_us: "PostgreSQL Master Username"
+            id_id: "Username Master PostgreSQL"
+        - container: POSTGRES_PASSWORD
+          description:
+            en_us: "PostgreSQL Master Password"
+            id_id: "Password Master PostgreSQL"
+        - container: POSTGRES_DB
+          description:
+            en_us: "PostgreSQL Database Name"
+            id_id: "Nama Database PostgreSQL"
+      volumes:
+        - container: /var/lib/postgresql/data
+          description:
+            en_us: "PostgreSQL database storage directory"
+            id_id: "Folder penyimpanan database fisik PostgreSQL"
+
+volumes:
+  postgres_data:
+    driver: local
+
+networks:
+  sipopt-network:
+    driver: bridge

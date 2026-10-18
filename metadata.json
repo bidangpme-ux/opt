@@ -1,0 +1,8 @@
+{
+  "name": "SIPOPT - Sistem Pengaduan & Pemantauan Organisme Pengganggu Tanaman",
+  "description": "Aplikasi dan database pengaduan laporan Organisme Pengganggu Tanaman (OPT) terintegrasi otomatis dengan Chatbot WhatsApp Fonnte dan Google Spreadsheets, dilengkapi Dashboard Admin, Manajemen User, dan Pemantauan Realtime.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

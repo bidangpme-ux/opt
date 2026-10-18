@@ -1,0 +1,232 @@
+{
+  "entities": {
+    "OPTReport": {
+      "title": "OPTReport",
+      "description": "Laporan pengaduan serangan Organisme Pengganggu Tanaman",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "code": { "type": "string" },
+        "reporterName": { "type": "string" },
+        "reporterPhone": { "type": "string" },
+        "farmerGroup": { "type": "string" },
+        "village": { "type": "string" },
+        "subdistrict": { "type": "string" },
+        "commodity": { "type": "string" },
+        "pestName": { "type": "string" },
+        "affectedAreaHa": { "type": "number" },
+        "threatenedAreaHa": { "type": "number" },
+        "severity": { "type": "string" },
+        "status": { "type": "string" },
+        "dateReported": { "type": "string" },
+        "notes": { "type": "string" },
+        "verificationNotes": { "type": "string" },
+        "gerdalRecommendation": { "type": "string" },
+        "verifiedBy": { "type": "string" },
+        "verifiedAt": { "type": "string" },
+        "channel": { "type": "string" },
+        "photoUrl": { "type": "string" },
+        "evidencePhotos": { "type": "array" },
+        "reporterAddress": { "type": "string" }
+      },
+      "required": ["code", "reporterName", "village", "subdistrict", "commodity", "pestName"]
+    },
+    "User": {
+      "title": "User",
+      "description": "Akun pengguna sistem SIGAP-OPT",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "username": { "type": "string" },
+        "name": { "type": "string" },
+        "email": { "type": "string" },
+        "phone": { "type": "string" },
+        "role": { "type": "string" },
+        "region": { "type": "string" },
+        "status": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "passwordHash": { "type": "string" },
+        "allowedTabs": { "type": "array" }
+      },
+      "required": ["username", "name", "role", "status"]
+    },
+    "Subdistrict": {
+      "title": "Subdistrict",
+      "description": "Master data wilayah kerja kecamatan POPT",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "coordinator": { "type": "string" },
+        "targetAreaHa": { "type": "number" },
+        "description": { "type": "string" }
+      },
+      "required": ["name"]
+    },
+    "CommodityItem": {
+      "title": "CommodityItem",
+      "description": "Master data komoditas tanaman",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "category": { "type": "string" },
+        "latinName": { "type": "string" },
+        "varieties": { "type": "string" },
+        "commonPests": { "type": "array" },
+        "targetAreaHa": { "type": "number" },
+        "description": { "type": "string" }
+      },
+      "required": ["name", "category"]
+    },
+    "CommodityCategory": {
+      "title": "CommodityCategory",
+      "description": "Kategori komoditas tanaman",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "description": { "type": "string" },
+        "icon": { "type": "string" },
+        "color": { "type": "string" }
+      },
+      "required": ["name"]
+    },
+    "SettingItem": {
+      "title": "SettingItem",
+      "description": "Konfigurasi sistem dan integrasi",
+      "type": "object",
+      "properties": {
+        "key": { "type": "string" },
+        "data": { "type": "object" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["key"]
+    },
+    "FonnteLog": {
+      "title": "FonnteLog",
+      "description": "Log pesan WhatsApp Fonnte",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "timestamp": { "type": "string" },
+        "direction": { "type": "string" },
+        "phone": { "type": "string" },
+        "senderName": { "type": "string" },
+        "message": { "type": "string" },
+        "status": { "type": "string" },
+        "reportCode": { "type": "string" },
+        "photoUrl": { "type": "string" }
+      },
+      "required": ["timestamp", "direction", "phone", "message", "status"]
+    },
+    "SyncLog": {
+      "title": "SyncLog",
+      "description": "Log sinkronisasi Google Spreadsheets",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "timestamp": { "type": "string" },
+        "type": { "type": "string" },
+        "status": { "type": "string" },
+        "rowsCount": { "type": "number" },
+        "message": { "type": "string" }
+      },
+      "required": ["timestamp", "status", "message"]
+    },
+    "WhatsAppContact": {
+      "title": "WhatsAppContact",
+      "description": "Buku kontak WhatsApp tersimpan",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "phone": { "type": "string" },
+        "category": { "type": "string" },
+        "subdistrict": { "type": "string" },
+        "village": { "type": "string" },
+        "organization": { "type": "string" },
+        "notes": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["name", "phone", "category"]
+    },
+    "BaileysAuthFile": {
+      "title": "BaileysAuthFile",
+      "description": "Berkas autentikasi multi-device Baileys WhatsApp",
+      "type": "object",
+      "properties": {
+        "fileName": { "type": "string" },
+        "content": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["fileName", "content"]
+    },
+    "BaileysLog": {
+      "title": "BaileysLog",
+      "description": "Log pesan WhatsApp Baileys",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "direction": { "type": "string" },
+        "phone": { "type": "string" },
+        "senderName": { "type": "string" },
+        "message": { "type": "string" },
+        "status": { "type": "string" },
+        "timestamp": { "type": "string" },
+        "source": { "type": "string" }
+      },
+      "required": ["direction", "phone", "message", "status", "timestamp"]
+    }
+  },
+  "firestore": {
+    "/reports/{reportId}": {
+      "schema": "OPTReport",
+      "description": "Koleksi data pengaduan laporan OPT"
+    },
+    "/users/{userId}": {
+      "schema": "User",
+      "description": "Koleksi data akun pengguna dan hak akses"
+    },
+    "/subdistricts/{subdistrictId}": {
+      "schema": "Subdistrict",
+      "description": "Koleksi master wilayah kecamatan binaan POPT"
+    },
+    "/commodities/{commodityId}": {
+      "schema": "CommodityItem",
+      "description": "Koleksi master komoditas tanaman pangan & hortikultura"
+    },
+    "/commodityCategories/{categoryId}": {
+      "schema": "CommodityCategory",
+      "description": "Koleksi kategori komoditas"
+    },
+    "/whatsappContacts/{contactId}": {
+      "schema": "WhatsAppContact",
+      "description": "Koleksi buku kontak WhatsApp"
+    },
+    "/baileys_auth_files/{fileId}": {
+      "schema": "BaileysAuthFile",
+      "description": "Koleksi berkas sesi WhatsApp Web Baileys"
+    },
+    "/baileysLogs/{logId}": {
+      "schema": "BaileysLog",
+      "description": "Koleksi log pesan WhatsApp Baileys"
+    },
+    "/settings/{settingId}": {
+      "schema": "SettingItem",
+      "description": "Koleksi konfigurasi integrasi Fonnte dan Google Spreadsheets"
+    },
+    "/systemSettings/{settingId}": {
+      "schema": "SettingItem",
+      "description": "Koleksi konfigurasi internal sistem"
+    },
+    "/fonnteLogs/{logId}": {
+      "schema": "FonnteLog",
+      "description": "Koleksi log pesan WhatsApp masuk dan keluar"
+    },
+    "/syncLogs/{logId}": {
+      "schema": "SyncLog",
+      "description": "Koleksi riwayat log sinkronisasi Google Sheets"
+    }
+  }
+}

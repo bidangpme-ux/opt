@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      (function() {
+        if (typeof window !== 'undefined') {
+          var OriginalWS = window.WebSocket;
+          if (OriginalWS) {
+            window.WebSocket = function(url, protocols) {
+              if (protocols === 'vite-hmr' || (typeof url === 'string' && (url.includes('vite-hmr') || url.includes('token=')))) {
+                var listeners = {};
+                return {
+                  readyState: 1,
+                  OPEN: 1,
+                  CLOSED: 3,
+                  CLOSING: 2,
+                  CONNECTING: 0,
+                  send: function() {},
+                  close: function() {
+                    if (listeners['close']) listeners['close'].forEach(function(fn) { fn({ wasClean: true }); });
+                  },
+                  addEventListener: function(type, fn) {
+                    listeners[type] = listeners[type] || [];
+                    listeners[type].push(fn);
+                    if (type === 'open') {
+                      setTimeout(function() { fn({}); }, 0);
+                    }
+                  },
+                  removeEventListener: function(type, fn) {
+                    if (listeners[type]) {
+                      listeners[type] = listeners[type].filter(function(cb) { return cb !== fn; });
+                    }
+                  },
+                  dispatchEvent: function() { return true; }
+                };
+              }
+              return new OriginalWS(url, protocols);
+            };
+            window.WebSocket.prototype = OriginalWS.prototype;
+            window.WebSocket.CONNECTING = 0;
+            window.WebSocket.OPEN = 1;
+            window.WebSocket.CLOSING = 2;
+            window.WebSocket.CLOSED = 3;
+          }
+
+          window.addEventListener('unhandledrejection', function(event) {
+            var reason = event && event.reason;
+            var str = String(reason || '') + ' ' + (reason && reason.stack ? reason.stack : '');
+            if (str.indexOf('WebSocket') !== -1 || str.indexOf('createWebSocketModuleRunnerTransport') !== -1 || str.indexOf('@vite/client') !== -1) {
+              event.preventDefault();
+              event.stopImmediatePropagation();
+            }
+          });
+          window.addEventListener('error', function(event) {
+            var str = String(event.message || '') + ' ' + String(event.filename || '');
+            if (str.indexOf('WebSocket') !== -1 || str.indexOf('createWebSocketModuleRunnerTransport') !== -1 || str.indexOf('@vite/client') !== -1) {
+              event.preventDefault();
+              event.stopImmediatePropagation();
+            }
+          });
+        }
+      })();
+    </script>
+    <meta name="vc-domain-verify" content="ai.studio,59d53df5ada1e07a14f9" />
+    <title>SIPOPT - Sistem Pengaduan & Pemantauan Organisme Pengganggu Tanaman</title>
+    <meta name="description" content="Aplikasi dan database pengaduan laporan Organisme Pengganggu Tanaman (OPT) terintegrasi otomatis dengan Chatbot WhatsApp Fonnte dan Google Spreadsheets, dilengkapi Dashboard Admin, Manajemen User, dan Pemantauan Realtime." />
+    <meta property="og:title" content="SIPOPT - Sistem Pengaduan & Pemantauan Organisme Pengganggu Tanaman" />
+    <meta property="og:description" content="Aplikasi dan database pengaduan laporan Organisme Pengganggu Tanaman (OPT) terintegrasi otomatis dengan Chatbot WhatsApp Fonnte dan Google Spreadsheets, dilengkapi Dashboard Admin, Manajemen User, dan Pemantauan Realtime." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/logo.png" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:image" content="/logo.png" />
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-slate-50 text-slate-900 antialiased font-['Plus_Jakarta_Sans',sans-serif]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

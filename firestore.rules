@@ -1,0 +1,74 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Health & connection check
+    match /test/{docId} {
+      allow read, write: if true;
+    }
+
+    // Reports collection
+    match /reports/{reportId} {
+      allow read, write: if true;
+    }
+
+    // Users and permissions collection
+    match /users/{userId} {
+      allow read, write: if true;
+    }
+
+    // Subdistricts collection
+    match /subdistricts/{subdistrictId} {
+      allow read, write: if true;
+    }
+
+    // Commodities collection
+    match /commodities/{commodityId} {
+      allow read, write: if true;
+    }
+
+    // Commodity Categories collection
+    match /commodityCategories/{categoryId} {
+      allow read, write: if true;
+    }
+
+    // WhatsApp Contacts collection
+    match /whatsappContacts/{contactId} {
+      allow read, write: if true;
+    }
+
+    // WhatsApp Baileys Auth Session files (persistent Multi-Device socket keys)
+    match /baileys_auth_files/{fileId} {
+      allow read, write: if true;
+    }
+
+    // System Settings collection
+    match /systemSettings/{settingId} {
+      allow read, write: if true;
+    }
+
+    // System & integrations settings collection
+    match /settings/{settingId} {
+      allow read, write: if true;
+    }
+
+    // WhatsApp Fonnte logs
+    match /fonnteLogs/{logId} {
+      allow read, write: if true;
+    }
+
+    // WhatsApp Baileys logs
+    match /baileysLogs/{logId} {
+      allow read, write: if true;
+    }
+
+    // Google Sheets sync logs
+    match /syncLogs/{logId} {
+      allow read, write: if true;
+    }
+
+    // Universal collection fallback for persistent storage
+    match /{document=**} {
+      allow read, write: if true;
+    }
+  }
+}

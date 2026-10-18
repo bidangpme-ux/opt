@@ -1,0 +1,1875 @@
+{
+  "users": [
+    {
+      "createdAt": "2026-01-15T08:00:00.000Z",
+      "passwordHash": "admin123",
+      "name": "Della Sefa Aulanda, A.Md.Ak. (Admin)",
+      "username": "admin",
+      "status": "active",
+      "role": "admin",
+      "phone": "",
+      "email": "penatalaksanabarangdkptph@gmail.com",
+      "region": "Kabupaten Tanggamus (Koordinator)",
+      "allowedTabs": [
+        "dashboard",
+        "reports",
+        "report-form",
+        "fonnte",
+        "sheets",
+        "export",
+        "subdistricts",
+        "commodities",
+        "users",
+        "guide"
+      ],
+      "id": "usr-1"
+    },
+    {
+      "name": "Catur Jatmiko, S.P.",
+      "passwordHash": "korluh123",
+      "allowedTabs": [
+        "dashboard",
+        "reports",
+        "report-form",
+        "export",
+        "smart-corner"
+      ],
+      "email": "",
+      "role": "pengamat",
+      "createdAt": "2026-09-28T15:32:29.784Z",
+      "region": "Kecamatan Wonosobo",
+      "status": "active",
+      "id": "usr-1790609549784",
+      "phone": "",
+      "username": "korluh wonosobo"
+    },
+    {
+      "passwordHash": "korluh123",
+      "status": "active",
+      "username": "korluh semaka",
+      "allowedTabs": [
+        "dashboard",
+        "reports",
+        "report-form",
+        "export",
+        "smart-corner"
+      ],
+      "email": "",
+      "phone": "",
+      "name": "Harsono, S.P.",
+      "id": "usr-1790609584388",
+      "createdAt": "2026-09-28T15:33:04.388Z",
+      "role": "pengamat",
+      "region": "Kecamatan Semaka"
+    },
+    {
+      "name": "Muhajir, S.P.",
+      "email": "",
+      "passwordHash": "korluh123",
+      "allowedTabs": [
+        "dashboard",
+        "reports",
+        "report-form",
+        "export",
+        "smart-corner"
+      ],
+      "createdAt": "2026-09-28T15:33:35.405Z",
+      "role": "pengamat",
+      "region": "Kecamatan Pematang Sawa",
+      "status": "active",
+      "id": "usr-1790609615405",
+      "username": "korluh pematang sawa",
+      "phone": ""
+    },
+    {
+      "phone": "",
+      "createdAt": "2026-09-28T15:34:01.643Z",
+      "allowedTabs": [
+        "dashboard",
+        "reports",
+        "report-form",
+        "export",
+        "smart-corner",
+        "fonnte"
+      ],
+      "id": "usr-1790609641643",
+      "status": "active",
+      "region": "Kabupaten Tanggamus",
+      "passwordHash": "popt123",
+      "username": "popt",
+      "role": "petugas_popt",
+      "email": "",
+      "name": "Feri"
+    }
+  ],
+  "reports": [
+    {
+      "plantAgeWeeks": 4,
+      "syncedToSheets": true,
+      "recommendation": "",
+      "verifiedBy": "Della Sefa Aulanda, A.Md.Ak. (Admin)",
+      "severity": "Berat",
+      "village": "Desa Belum Disebut",
+      "pestType": "Hama",
+      "areaThreatenedHa": 6,
+      "dateReported": "2026-10-01T04:50:54.323Z",
+      "reporterName": "Pak Wayan",
+      "id": "rep-1790830254324",
+      "updatedAt": "2026-10-04T15:34:04.096Z",
+      "areaAffectedHa": 2,
+      "actionTaken": "",
+      "subdistrict": "Kecamatan Belum Disebut",
+      "location": {
+        "latitude": -5.4988,
+        "longitude": 104.6225
+      },
+      "waNotificationSent": true,
+      "district": "Kabupaten Tanggamus",
+      "farmerGroup": "Pengaduan Mandiri via WhatsApp (24/7 Always-On)",
+      "reporterPhone": "081277889900",
+      "commodity": "Padi Sawah",
+      "symptoms": "Laporan masuk otomatis via Chatbot WhatsApp 24/7: \"Lapor pak, tanaman padi saya di desa Sukabanjar diserang hama wereng coklat parah luas 2 hektar\"",
+      "pestName": "Wereng Batang Coklat (WBC)",
+      "status": "Selesai",
+      "code": "OPT-2026-005",
+      "source": "fonnte_whatsapp",
+      "evidencePhotos": []
+    },
+    {
+      "plantAgeWeeks": 4,
+      "syncedToSheets": true,
+      "recommendation": "",
+      "verifiedBy": "Della Sefa Aulanda, A.Md.Ak. (Admin)",
+      "severity": "Sedang",
+      "village": "mekar jaya",
+      "pestType": "Hama",
+      "areaThreatenedHa": 3,
+      "dateReported": "2026-10-04T07:44:51.015Z",
+      "reporterName": "delsef",
+      "id": "rep-1791099891015",
+      "updatedAt": "2026-10-05T07:01:35.562Z",
+      "areaAffectedHa": 1,
+      "actionTaken": "",
+      "location": {
+        "longitude": 104.6225,
+        "latitude": -5.4988
+      },
+      "subdistrict": "pematang sawa",
+      "waNotificationSent": true,
+      "district": "Kabupaten Tanggamus",
+      "farmerGroup": "Pengaduan Mandiri via WhatsApp (24/7 Always-On)",
+      "reporterPhone": "6281273488762",
+      "commodity": "padi",
+      "symptoms": "Laporan masuk otomatis via Chatbot WhatsApp 24/7: \"Lapor#delsef#mekar jaya#pematang sawa#padi#2\"",
+      "pestName": "2",
+      "status": "Menunggu Verifikasi",
+      "code": "OPT-2026-006",
+      "source": "fonnte_whatsapp",
+      "evidencePhotos": []
+    },
+    {
+      "id": "rep-1791127780219",
+      "severity": "Sedang",
+      "village": "soponyono",
+      "areaThreatenedHa": 6,
+      "source": "fonnte_whatsapp",
+      "pestType": "Hama",
+      "status": "Menunggu Verifikasi",
+      "reporterName": "suparlan",
+      "verifiedBy": "Della Sefa Aulanda, A.Md.Ak. (Admin)",
+      "actionTaken": "Telah dilakukan Gerdal (Gerakanh pengendalian)",
+      "commodity": "padi",
+      "evidencePhotos": [],
+      "dateReported": "2026-10-04T15:29:40.219Z",
+      "plantAgeWeeks": 4,
+      "location": {
+        "longitude": 104.6225,
+        "latitude": -5.4988
+      },
+      "waNotificationSent": true,
+      "district": "Kabupaten Tanggamus",
+      "recommendation": "lakukan pengamatan secara rutin pada tanaman yang terserang, menjaga kebersihan lahan, serta melakukan pengendalian sesuai kondisi dan tingkat serangan di lapangan. Status rekomendasi yaitu Perlu pengendalian dan pemantauan lanjutan",
+      "syncedToSheets": true,
+      "symptoms": "Laporan masuk otomatis via Chatbot WhatsApp 24/7: \"Lapor#suparlan#soponyono#wonosobo#padi#wereng#2 hektar\"",
+      "subdistrict": "wonosobo",
+      "pestName": "wereng",
+      "reporterPhone": "6281273488762",
+      "areaAffectedHa": 2,
+      "updatedAt": "2026-10-06T09:11:03.196Z",
+      "farmerGroup": "Pengaduan Mandiri via WhatsApp (24/7 Always-On)",
+      "code": "OPT-2026-005"
+    },
+    {
+      "areaThreatenedHa": 9,
+      "farmerGroup": "Pengaduan Mandiri via WhatsApp (24/7 Always-On)",
+      "syncedToSheets": true,
+      "code": "OPT-2026-006",
+      "status": "Menunggu Verifikasi",
+      "dateReported": "2026-10-05T07:28:32.885Z",
+      "source": "fonnte_whatsapp",
+      "symptoms": "Laporan masuk otomatis via Chatbot WhatsApp 24/7: \"Lapor#sukarlann#banjar sari#wonosobo#padi#wereng#3 hektar\"",
+      "id": "rep-1791185312886",
+      "subdistrict": "wonosobo",
+      "pestName": "wereng",
+      "village": "banjar sari",
+      "updatedAt": "2026-10-05T07:28:32.885Z",
+      "plantAgeWeeks": 4,
+      "areaAffectedHa": 3,
+      "district": "Kabupaten Tanggamus",
+      "severity": "Sedang",
+      "evidencePhotos": [],
+      "pestType": "Hama",
+      "reporterName": "sukarlann",
+      "waNotificationSent": true,
+      "commodity": "padi",
+      "reporterPhone": "6281273488762",
+      "location": {
+        "longitude": 104.6225,
+        "latitude": -5.4988
+      }
+    },
+    {
+      "id": "rep-1791185785414",
+      "commodity": "padi",
+      "plantAgeWeeks": 4,
+      "reporterName": "jono",
+      "reporterPhone": "6281273488762",
+      "symptoms": "Laporan masuk otomatis via Chatbot WhatsApp 24/7: \"Lapor#jono#banjar sari#semaka#padi#wereng#3 hektar\"",
+      "syncedToSheets": true,
+      "updatedAt": "2026-10-05T07:36:25.414Z",
+      "pestName": "wereng",
+      "status": "Menunggu Verifikasi",
+      "source": "fonnte_whatsapp",
+      "evidencePhotos": [],
+      "waNotificationSent": true,
+      "village": "banjar sari",
+      "district": "Kabupaten Tanggamus",
+      "severity": "Sedang",
+      "areaAffectedHa": 3,
+      "pestType": "Hama",
+      "areaThreatenedHa": 9,
+      "farmerGroup": "Pengaduan Mandiri via WhatsApp (24/7 Always-On)",
+      "code": "OPT-2026-005",
+      "dateReported": "2026-10-05T07:36:25.414Z",
+      "location": {
+        "longitude": 104.6225,
+        "latitude": -5.4988
+      },
+      "subdistrict": "semaka"
+    },
+    {
+      "pestName": "Organisme Pengganggu Tanaman (OPT)",
+      "areaThreatenedHa": 3,
+      "symptoms": "Laporan bertahap via WhatsApp Bot.\nAlamat: LAPOR\nLuas terserang: 1 Ha.",
+      "reporterName": "LAPOR",
+      "id": "rep-1792178658772",
+      "reporterAddress": "LAPOR",
+      "code": "OPT-2026-006",
+      "location": {
+        "latitude": -5.4988,
+        "longitude": 104.6225
+      },
+      "evidencePhotos": [],
+      "status": "Menunggu Verifikasi",
+      "source": "fonnte_whatsapp",
+      "dateReported": "2026-10-16T19:24:18.772Z",
+      "subdistrict": "contoh",
+      "updatedAt": "2026-10-16T19:24:18.772Z",
+      "plantAgeWeeks": 4,
+      "district": "Kabupaten Tanggamus",
+      "farmerGroup": "Pengaduan Mandiri via WhatsApp Interaktif",
+      "village": "lapor",
+      "waNotificationSent": true,
+      "syncedToSheets": true,
+      "commodity": "Padi Sawah",
+      "areaAffectedHa": 1,
+      "reporterPhone": "081298765432",
+      "pestType": "Hama",
+      "severity": "Sedang"
+    },
+    {
+      "id": "rep-1792341784731",
+      "severity": "Berat",
+      "village": "Gisting Atas",
+      "source": "fonnte_whatsapp",
+      "pestType": "Penyakit",
+      "areaThreatenedHa": 4.5,
+      "status": "Menunggu Verifikasi",
+      "reporterName": "Budi Santoso",
+      "evidencePhotos": [],
+      "commodity": "Cabai Merah",
+      "dateReported": "2026-10-18T16:43:04.728Z",
+      "plantAgeWeeks": 4,
+      "location": {
+        "longitude": 104.6225,
+        "latitude": -5.4988
+      },
+      "waNotificationSent": true,
+      "district": "Kabupaten Tanggamus",
+      "syncedToSheets": true,
+      "reporterAddress": "-",
+      "symptoms": "Laporan cepat format tagar: \"LAPOR#Budi Santoso#Gisting Atas#Gisting#Cabai Merah#Antraknosa Patek#1.5#Berat\"",
+      "subdistrict": "Gisting",
+      "pestName": "Antraknosa Patek",
+      "reporterPhone": "081299887766",
+      "areaAffectedHa": 1.5,
+      "updatedAt": "2026-10-18T16:43:04.728Z",
+      "farmerGroup": "Pengaduan Cepat via WhatsApp Tagar",
+      "code": "OPT-2026-007"
+    }
+  ],
+  "fonnteConfig": {
+    "senderNumber": "085846046927(SIGAP-OPT Bot)",
+    "autoNotificationOnUpdate": true,
+    "webhookSecret": "sigap_opt_fonnte_secret_2026",
+    "webhookUrl": "/api/webhook/fonnte",
+    "apiToken": "Bye1QhoUjiZ7k4SXDcwn",
+    "autoReplyEnabled": true
+  },
+  "fonnteLogs": [
+    {
+      "id": "log-1792341838913",
+      "timestamp": "2026-10-18T16:43:58.912Z",
+      "direction": "outgoing",
+      "phone": "081298765432",
+      "message": "🌾 *PENGADUAN SERANGAN HAMA/PENYAKIT (OPT) TANAMAN* 🌾\n_Dinas Ketahanan Pangan, Tanaman Pangan dan Hortikultura Kab. Tanggamus_\n\nSilakan jawab pertanyaan berikut secara bertahap:\n\n1️⃣ *Siapa nama Anda?*\n_(Ketik nama lengkap Anda, atau ketik *BATAL* untuk membatalkan)_",
+      "status": "simulated"
+    },
+    {
+      "id": "log-1792341838910",
+      "timestamp": "2026-10-18T16:43:58.910Z",
+      "direction": "incoming",
+      "phone": "081298765432",
+      "senderName": "Pak Supardi (Petani)",
+      "message": "lapor",
+      "status": "simulated"
+    },
+    {
+      "id": "log-1792341785012",
+      "timestamp": "2026-10-18T16:43:05.011Z",
+      "direction": "outgoing",
+      "phone": "081299887766",
+      "message": "✅ *PENGADUAN OPT BERHASIL DICATAT* ✅\n\nNomor Tiket: *OPT-2026-007*\n👤 *Nama:* Budi Santoso\n📍 *Lokasi:* Desa Gisting Atas, Kec. Gisting\n🌱 *Komoditas:* Cabai Merah\n🐛 *Hama/Penyakit:* Antraknosa Patek\n📊 *Luas Serangan:* 1.5 Ha (Berat)\n\nLaporan ini *OTOMATIS TERCATAT 24/7 DI DATABASE SIGAP-OPT & GOOGLE SPREADSHEETS* pemantauan.\n\nUntuk cek berkala status penanganan, ketik:\n👉 *STATUS#OPT-2026-007*",
+      "status": "delivered"
+    },
+    {
+      "id": "log-1792341784728",
+      "timestamp": "2026-10-18T16:43:04.728Z",
+      "direction": "incoming",
+      "phone": "081299887766",
+      "senderName": "Budi Santoso",
+      "message": "LAPOR#Budi Santoso#Gisting Atas#Gisting#Cabai Merah#Antraknosa Patek#1.5#Berat",
+      "status": "processed"
+    },
+    {
+      "id": "log-1792178659050",
+      "timestamp": "2026-10-16T19:24:19.049Z",
+      "direction": "outgoing",
+      "phone": "081298765432",
+      "message": "✅ *LAPORAN PENGADUAN OPT BERHASIL DITERIMA & DICATAT* ✅\n\n📋 *Nomor Tiket:* *OPT-2026-006*\n👤 *Nama Pelapor:* LAPOR\n📞 *No. Telepon:* 081298765432\n🏠 *Alamat:* LAPOR\n📍 *Desa / Pekon:* lapor\n🗺️ *Kecamatan:* contoh\n🌱 *Komoditas:* Padi Sawah\n🐛 *Hama/Penyakit:* Organisme Pengganggu Tanaman (OPT)\n📊 *Luasan Terserang:* 1 Ha (Sedang)\n📸 *Foto Lokasi:* Dilewati (belum ada foto)\n\nLaporan Anda telah tercatat 24/7 di database SIGAP-OPT & Google Spreadsheets Dinas Pertanian Kabupaten Tanggamus dan diteruskan ke Petugas POPT wilayah contoh.\n\nUntuk cek perkembangan penanganan sewaktu-waktu, ketik:\n👉 *STATUS#OPT-2026-006*",
+      "status": "simulated"
+    },
+    {
+      "id": "log-1792178658771",
+      "timestamp": "2026-10-16T19:24:18.771Z",
+      "direction": "incoming",
+      "phone": "081298765432",
+      "senderName": "Pak Supardi",
+      "message": "LAPOR",
+      "status": "simulated"
+    },
+    {
+      "id": "log-1791186341097",
+      "timestamp": "2026-10-05T07:45:41.096Z",
+      "direction": "outgoing",
+      "phone": "081299998888",
+      "message": "Terima kasih Bpk/Ibu *Joko Widodo*.\n\n2️⃣ *Di mana alamat Anda?*\n_(Sebutkan nama dusun, jalan, atau RT/RW tempat tinggal Anda. Ketik *BATAL* untuk membatalkan)_",
+      "status": "simulated"
+    },
+    {
+      "id": "log-1791186341095",
+      "timestamp": "2026-10-05T07:45:41.095Z",
+      "direction": "incoming",
+      "phone": "081299998888",
+      "senderName": "Pak Joko",
+      "message": "Joko Widodo",
+      "status": "simulated"
+    },
+    {
+      "id": "log-1791186333352",
+      "timestamp": "2026-10-05T07:45:33.351Z",
+      "direction": "outgoing",
+      "phone": "081299998888",
+      "message": "🌾 *PENGADUAN SERANGAN HAMA/PENYAKIT (OPT) TANAMAN* 🌾\n_Dinas Ketahanan Pangan, Tanaman Pangan dan Hortikultura Kab. Tanggamus_\n\nSilakan jawab pertanyaan berikut secara bertahap:\n\n1️⃣ *Siapa nama Anda?*\n_(Ketik nama lengkap Anda, atau ketik *BATAL* untuk membatalkan)_",
+      "status": "simulated"
+    },
+    {
+      "id": "log-1791186333349",
+      "timestamp": "2026-10-05T07:45:33.349Z",
+      "direction": "incoming",
+      "phone": "081299998888",
+      "senderName": "Pak Joko",
+      "message": "LAPOR",
+      "status": "simulated"
+    },
+    {
+      "id": "log-1791182872563",
+      "timestamp": "2026-10-05T06:47:52.562Z",
+      "direction": "outgoing",
+      "phone": "0855667788",
+      "message": "Alamat tercatat: *Jl. Lintas Barat Pekon Gisting*.\n\n3️⃣ *Di mana desa Anda?*\n_(Sebutkan nama Desa / Pekon tempat lahan pertanian berada)_",
+      "status": "simulated"
+    },
+    {
+      "id": "log-1791182872561",
+      "timestamp": "2026-10-05T06:47:52.561Z",
+      "direction": "incoming",
+      "phone": "0855667788",
+      "senderName": "Ibu Ratna",
+      "message": "Jl. Lintas Barat Pekon Gisting",
+      "status": "simulated"
+    },
+    {
+      "id": "log-1791182872558",
+      "timestamp": "2026-10-05T06:47:52.557Z",
+      "direction": "outgoing",
+      "phone": "0855667788",
+      "message": "Terima kasih Bpk/Ibu *Ibu Ratna*.\n\n2️⃣ *Di mana alamat Anda?*\n_(Sebutkan nama dusun, jalan, atau RT/RW tempat tinggal Anda. Ketik *BATAL* untuk membatalkan)_",
+      "status": "simulated"
+    },
+    {
+      "id": "log-1791182872556",
+      "timestamp": "2026-10-05T06:47:52.556Z",
+      "direction": "incoming",
+      "phone": "0855667788",
+      "senderName": "Ibu Ratna",
+      "message": "Ibu Ratna",
+      "status": "simulated"
+    },
+    {
+      "id": "log-1791182872542",
+      "timestamp": "2026-10-05T06:47:52.541Z",
+      "direction": "outgoing",
+      "phone": "0855667788",
+      "message": "🌾 *PENGADUAN SERANGAN HAMA/PENYAKIT (OPT) TANAMAN* 🌾\n_Dinas Ketahanan Pangan, Tanaman Pangan dan Hortikultura Kab. Tanggamus_\n\nSilakan jawab pertanyaan berikut secara bertahap:\n\n1️⃣ *Siapa nama Anda?*\n_(Ketik nama lengkap Anda, atau ketik *BATAL* untuk membatalkan)_",
+      "status": "simulated"
+    },
+    {
+      "id": "log-1791182872540",
+      "timestamp": "2026-10-05T06:47:52.540Z",
+      "direction": "incoming",
+      "phone": "0855667788",
+      "senderName": "Ibu Ratna",
+      "message": "Lapor",
+      "status": "simulated"
+    },
+    {
+      "id": "log-1791182867252",
+      "timestamp": "2026-10-05T06:47:47.251Z",
+      "direction": "outgoing",
+      "phone": "081234567899",
+      "message": "🔍 *INFORMASI STATUS PENGADUAN [OPT-2026-004]* 🔍\n\n👤 *Pelapor:* Pak Supardi\n📞 *No. HP:* 081234567899\n🏠 *Alamat:* Dusun 2 RT 04\n📍 *Lokasi:* Desa Pekon Sukabanjar, Kec. Kota Agung Timur\n🌱 *Komoditas:* Padi Sawah\n🐛 *Hama/Penyakit:* Wereng Batang Coklat (WBC)\n📊 *Intensitas:* Sedang (2.5 Ha)\n📸 *Foto Serangan:* ✅ Tersedia di sistem\n\n🔄 *STATUS:* *Menunggu Verifikasi*\n👨‍🌾 *Petugas:* Tim POPT Kabupaten Tanggamus\n\n💡 *Rekomendasi:* Tetap lakukan monitoring rutin dan hubungi petugas POPT kecamatan.\n🛠 *Tindakan Lapangan:* Dalam tahap tindak lanjut tim lapangan.",
+      "status": "delivered"
+    },
+    {
+      "id": "log-1791182867250",
+      "timestamp": "2026-10-05T06:47:47.250Z",
+      "direction": "incoming",
+      "phone": "081234567899",
+      "senderName": "Petani",
+      "message": "STATUS#OPT-2026-004",
+      "status": "processed"
+    },
+    {
+      "id": "log-1791182862251",
+      "timestamp": "2026-10-05T06:47:42.250Z",
+      "direction": "outgoing",
+      "phone": "081234567899",
+      "message": "✅ *LAPORAN PENGADUAN OPT BERHASIL DITERIMA & DICATAT* ✅\n\n📋 *Nomor Tiket:* *OPT-2026-004*\n👤 *Nama Pelapor:* Pak Supardi\n📞 *No. Telepon:* 081234567899\n🏠 *Alamat:* Dusun 2 RT 04\n📍 *Desa / Pekon:* Pekon Sukabanjar\n🗺️ *Kecamatan:* Kota Agung Timur\n🌱 *Komoditas:* Padi Sawah\n🐛 *Hama/Penyakit:* Wereng Batang Coklat (WBC)\n📊 *Luasan Terserang:* 2.5 Ha (Sedang)\n📸 *Foto Lokasi:* ✅ Foto berhasil diunggah\n\nLaporan Anda telah tercatat 24/7 di database SIGAP-OPT & Google Spreadsheets Dinas Pertanian Kabupaten Tanggamus dan diteruskan ke Petugas POPT wilayah Kota Agung Timur.\n\nUntuk cek perkembangan penanganan sewaktu-waktu, ketik:\n👉 *STATUS#OPT-2026-004*",
+      "status": "delivered"
+    },
+    {
+      "id": "log-1791182862005",
+      "timestamp": "2026-10-05T06:47:42.005Z",
+      "direction": "incoming",
+      "phone": "081234567899",
+      "senderName": "Supardi",
+      "message": "KIRIM_FOTO_HAMA [Lampiran Foto: https://images.unsplash.com/photo-1592982537447-7440770cbfc9]",
+      "status": "processed"
+    },
+    {
+      "id": "log-1791182861970",
+      "timestamp": "2026-10-05T06:47:41.969Z",
+      "direction": "outgoing",
+      "phone": "081234567899",
+      "message": "Luasan terserang: *2.5 Ha* tercatat.\n\n6️⃣ *Silakan upload/kirim foto lokasi terserang.*\n_(Kirimkan foto tanaman/lahan terserang langsung via WhatsApp ini. Jika belum memiliki foto atau ingin menyelesaikan sekarang, ketik *SELESAI* atau *LEWATI*)_",
+      "status": "delivered"
+    },
+    {
+      "id": "log-1791182861969",
+      "timestamp": "2026-10-05T06:47:41.969Z",
+      "direction": "incoming",
+      "phone": "081234567899",
+      "senderName": "Supardi",
+      "message": "2.5 Ha Padi terserang Wereng Coklat",
+      "status": "processed"
+    },
+    {
+      "id": "log-1791182861934",
+      "timestamp": "2026-10-05T06:47:41.933Z",
+      "direction": "outgoing",
+      "phone": "081234567899",
+      "message": "Kecamatan *Kota Agung Timur* tercatat.\n\n5️⃣ *Berapa luasan lahan terserang?*\n_(Contoh: 1.5 Ha, 0.5 Hektar, atau 2 Ha. Anda juga bisa menyebutkan nama tanaman & hama jika tahu, misal: 1.5 Ha Padi terserang Wereng Coklat)_",
+      "status": "delivered"
+    },
+    {
+      "id": "log-1791182861932",
+      "timestamp": "2026-10-05T06:47:41.932Z",
+      "direction": "incoming",
+      "phone": "081234567899",
+      "senderName": "Supardi",
+      "message": "Kota Agung Timur",
+      "status": "processed"
+    },
+    {
+      "id": "log-1791182861901",
+      "timestamp": "2026-10-05T06:47:41.900Z",
+      "direction": "outgoing",
+      "phone": "081234567899",
+      "message": "Desa *Pekon Sukabanjar* tercatat.\n\n4️⃣ *Di mana kecamatan Anda?*\n_(Contoh: Kota Agung, Cimanuk, Gisting, Talang Padang, Wonosobo, Sumberejo, Pulau Panggung, Pugung, dll)_",
+      "status": "delivered"
+    },
+    {
+      "id": "log-1791182861900",
+      "timestamp": "2026-10-05T06:47:41.900Z",
+      "direction": "incoming",
+      "phone": "081234567899",
+      "senderName": "Supardi",
+      "message": "Pekon Sukabanjar",
+      "status": "processed"
+    },
+    {
+      "id": "log-1791182861859",
+      "timestamp": "2026-10-05T06:47:41.858Z",
+      "direction": "outgoing",
+      "phone": "081234567899",
+      "message": "Alamat tercatat: *Dusun 2 RT 04*.\n\n3️⃣ *Di mana desa Anda?*\n_(Sebutkan nama Desa / Pekon tempat lahan pertanian berada)_",
+      "status": "delivered"
+    },
+    {
+      "id": "log-1791182861857",
+      "timestamp": "2026-10-05T06:47:41.857Z",
+      "direction": "incoming",
+      "phone": "081234567899",
+      "senderName": "Supardi",
+      "message": "Dusun 2 RT 04",
+      "status": "processed"
+    },
+    {
+      "id": "log-1791182861824",
+      "timestamp": "2026-10-05T06:47:41.823Z",
+      "direction": "outgoing",
+      "phone": "081234567899",
+      "message": "Terima kasih Bpk/Ibu *Pak Supardi*.\n\n2️⃣ *Di mana alamat Anda?*\n_(Sebutkan nama dusun, jalan, atau RT/RW tempat tinggal Anda. Ketik *BATAL* untuk membatalkan)_",
+      "status": "delivered"
+    },
+    {
+      "id": "log-1791182861822",
+      "timestamp": "2026-10-05T06:47:41.822Z",
+      "direction": "incoming",
+      "phone": "081234567899",
+      "senderName": "Supardi",
+      "message": "Pak Supardi",
+      "status": "processed"
+    },
+    {
+      "id": "log-1791182861698",
+      "timestamp": "2026-10-05T06:47:41.697Z",
+      "direction": "outgoing",
+      "phone": "081234567899",
+      "message": "🌾 *PENGADUAN SERANGAN HAMA/PENYAKIT (OPT) TANAMAN* 🌾\n_Dinas Ketahanan Pangan, Tanaman Pangan dan Hortikultura Kab. Tanggamus_\n\nSilakan jawab pertanyaan berikut secara bertahap:\n\n1️⃣ *Siapa nama Anda?*\n_(Ketik nama lengkap Anda, atau ketik *BATAL* untuk membatalkan)_",
+      "status": "delivered"
+    },
+    {
+      "id": "log-1791182861696",
+      "timestamp": "2026-10-05T06:47:41.696Z",
+      "direction": "incoming",
+      "phone": "081234567899",
+      "senderName": "Supardi",
+      "message": "Lapor",
+      "status": "processed"
+    },
+    {
+      "id": "log-1791182495063",
+      "timestamp": "2026-10-05T06:41:35.062Z",
+      "direction": "outgoing",
+      "phone": "081298765432",
+      "message": "🌾 *SIGAP-OPT BOT FONNTE*\nHalo *Pak Supardi (Petani)*! Untuk melapor ketik:\n*LAPOR#Nama#Desa#Kecamatan#Komoditas#Hama#Luas#Tingkat*\nContoh: *LAPOR#Pak Supardi#Cimanuk#Cimanuk#Padi#Wereng Coklat#1.5#Berat*",
+      "status": "simulated"
+    },
+    {
+      "id": "log-1791182495062",
+      "timestamp": "2026-10-05T06:41:35.062Z",
+      "direction": "incoming",
+      "phone": "081298765432",
+      "senderName": "Pak Supardi (Petani)",
+      "message": "lapor",
+      "status": "simulated"
+    },
+    {
+      "id": "log-1790830254613",
+      "timestamp": "2026-10-01T04:50:54.612Z",
+      "direction": "outgoing",
+      "phone": "081277889900",
+      "message": "✅ *PENGADUAN OPT BERHASIL DICATAT* ✅\n\nNomor Tiket: *OPT-2026-005*\n👤 *Nama:* Pak Wayan\n📍 *Lokasi:* Desa Desa Belum Disebut, Kec. Kecamatan Belum Disebut\n🌱 *Komoditas:* Padi Sawah\n🐛 *Hama/Penyakit:* Wereng Batang Coklat (WBC)\n📊 *Luas Serangan:* 2 Ha (Berat)\n\nLaporan ini *OTOMATIS TERCATAT 24/7 DI DATABASE SIGAP-OPT & GOOGLE SPREADSHEETS* pemantauan dan langsung diteruskan ke Petugas POPT wilayah Anda.\n\nUntuk cek berkala status penanganan, ketik:\n👉 *STATUS#OPT-2026-005*",
+      "status": "delivered"
+    },
+    {
+      "id": "log-1790830254323",
+      "timestamp": "2026-10-01T04:50:54.323Z",
+      "direction": "incoming",
+      "phone": "081277889900",
+      "senderName": "Pak Wayan",
+      "message": "Lapor pak, tanaman padi saya di desa Sukabanjar diserang hama wereng coklat parah luas 2 hektar",
+      "status": "processed"
+    },
+    {
+      "id": "log-1790670052507",
+      "timestamp": "2026-09-29T08:20:52.506Z",
+      "direction": "outgoing",
+      "phone": "081298765432",
+      "message": "🌾 *SIGAP-OPT BOT FONNTE*\nHalo *Pak Supardi (Petani)*! Untuk melapor ketik:\n*LAPOR#Nama#Desa#Kecamatan#Komoditas#Hama#Luas#Tingkat*\nContoh: *LAPOR#Pak Supardi#Cimanuk#Cimanuk#Padi#Wereng Coklat#1.5#Berat*",
+      "status": "simulated"
+    },
+    {
+      "id": "log-1790670052506",
+      "timestamp": "2026-09-29T08:20:52.506Z",
+      "direction": "incoming",
+      "phone": "081298765432",
+      "senderName": "Pak Supardi (Petani)",
+      "message": "lapor",
+      "status": "simulated"
+    },
+    {
+      "id": "log-1790668169775",
+      "timestamp": "2026-09-29T07:49:29.774Z",
+      "direction": "outgoing",
+      "phone": "081298765432",
+      "message": "❌ Nomor tiket *OPT-2026-001* tidak ditemukan dalam database SIGAP-OPT.\nPastikan format penulisan benar, contoh: *STATUS#OPT-2026-001*",
+      "status": "delivered"
+    },
+    {
+      "id": "log-1790668169774",
+      "timestamp": "2026-09-29T07:49:29.774Z",
+      "direction": "incoming",
+      "phone": "081298765432",
+      "senderName": "Pak Supardi",
+      "message": "STATUS#OPT-2026-001",
+      "status": "processed"
+    },
+    {
+      "id": "log-1790352466005",
+      "timestamp": "2026-09-25T16:07:45.717Z",
+      "direction": "outgoing",
+      "phone": "a12121",
+      "message": "🌾 *LAPORAN PENGADUAN OPT DITERIMA* 🌾\n\nHalo Bpk/Ibu *asas*,\nLaporan serangan OPT Anda telah kami terima:\n\n📋 *No. Tiket:* OPT-2026-001\n🌱 *Komoditas:* Padi Sawah\n🐛 *Hama/Penyakit:* Wereng Batang Coklat (Nilaparvata lugens)\n📍 *Lokasi:* Desa sasas, Kec. Cimanuk\n📊 *Intensitas:* Sedang (1.51 Ha)\n\nPetugas POPT wilayah Anda segera melakukan verifikasi dan memberikan rekomendasi pengendalian. Cek berkala via sistem atau balas pesan ini.\n\n_SIGAP-OPT - Dinas Pertanian_",
+      "status": "simulated",
+      "reportCode": "OPT-2026-001"
+    },
+    {
+      "id": "log-1790236208774",
+      "timestamp": "2026-09-24T07:50:08.773Z",
+      "direction": "outgoing",
+      "phone": "081377889900",
+      "message": "🌾 *SIGAP-OPT BOT FONNTE*\nHalo *Petani Sukabumi*! Untuk melapor ketik:\n*LAPOR#Nama#Desa#Kecamatan#Komoditas#Hama#Luas#Tingkat*\nContoh: *LAPOR#Pak Supardi#Cimanuk#Cimanuk#Padi#Wereng Coklat#1.5#Berat*",
+      "status": "simulated"
+    },
+    {
+      "id": "log-1790236208773",
+      "timestamp": "2026-09-24T07:50:08.773Z",
+      "direction": "incoming",
+      "phone": "081377889900",
+      "senderName": "Petani Sukabumi",
+      "message": "PANDUAN",
+      "status": "simulated"
+    },
+    {
+      "id": "log-1790236205728",
+      "timestamp": "2026-09-24T07:50:05.727Z",
+      "direction": "outgoing",
+      "phone": "081298765432",
+      "message": "🔍 *STATUS PENGADUAN [OPT-2026-001]*\nStatus: *Tindak Lanjut / Gerdal*\nPetugas: Budi Santoso, S.P\nRekomendasi: Keringkan sawah secara berkala (intermittent irrigation), aplikasi agens hayati Beauveria bassiana 5 gr/liter air atau insektisida berbahan aktif Pimetrozin/Buprofezin terdaftar sesuai dosis rekomendasi.",
+      "status": "simulated"
+    },
+    {
+      "id": "log-1790236205727",
+      "timestamp": "2026-09-24T07:50:05.727Z",
+      "direction": "incoming",
+      "phone": "081298765432",
+      "senderName": "Pak Supardi",
+      "message": "STATUS#OPT-2026-001",
+      "status": "simulated"
+    },
+    {
+      "id": "log-1",
+      "timestamp": "2026-03-20T08:15:10.000Z",
+      "direction": "incoming",
+      "phone": "081298765432",
+      "senderName": "Pak Supardi",
+      "message": "LAPOR#Supardi#Cimanuk Hilir#Cimanuk#Padi Sawah#Wereng Batang Coklat#2.5#Berat",
+      "status": "processed",
+      "reportCode": "OPT-2026-001"
+    },
+    {
+      "id": "log-2",
+      "timestamp": "2026-03-20T08:15:15.000Z",
+      "direction": "outgoing",
+      "phone": "081298765432",
+      "message": "✅ Laporan OPT berhasil dicatat dengan ID: OPT-2026-001. Petugas POPT Cimanuk segera melakukan verifikasi.",
+      "status": "delivered",
+      "reportCode": "OPT-2026-001"
+    },
+    {
+      "id": "log-3",
+      "timestamp": "2026-03-22T14:30:10.000Z",
+      "direction": "outgoing",
+      "phone": "081298765432",
+      "message": "📢 Update Status Laporan OPT-2026-001: Dijadwalkan Gerdal Massal bersama Petugas Budi Santoso, S.P pada Sabtu jam 07.00 WIB.",
+      "status": "delivered",
+      "reportCode": "OPT-2026-001"
+    }
+  ],
+  "spreadsheetConfig": {
+    "userEmail": "penatalaksanabarangdkptph@gmail.com",
+    "sheetNameCommodities": "Master_Komoditas_Tanaman",
+    "syncedSubdistrictsCount": 6,
+    "syncedReportsCount": 1,
+    "connectedAt": "2026-09-24T07:58:42.890Z",
+    "sheetNameUsers": "Manajemen_Pengguna_Akses",
+    "integrationMode": "email_auto",
+    "autoSyncEnabled": true,
+    "webhookUrl": "https://script.google.com/macros/s/AKfycbz_SIGAP_OPT_EXAMPLE_SCRIPT_ID/exec",
+    "status": "connected",
+    "syncedCommoditiesCount": 10,
+    "sheetName": "Laporan_Pengaduan_OPT",
+    "lastSyncedAt": "2026-09-28T08:17:23.405Z",
+    "spreadsheetId": "1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms",
+    "totalSyncedRows": 18,
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit?usp=sharing",
+    "syncedUsersCount": 1,
+    "accessPermission": "editor",
+    "sheetNameSubdistricts": "Master_Kecamatan_POPT"
+  },
+  "syncLogs": [
+    {
+      "id": "sync-1792178659048",
+      "timestamp": "2026-10-16T19:24:18.772Z",
+      "type": "auto",
+      "status": "success",
+      "rowsCount": 1,
+      "message": "Auto-Sync WhatsApp: Laporan OPT-2026-006 (Padi Sawah - Organisme Pengganggu Tanaman (OPT)) dari LAPOR otomatis masuk ke Google Spreadsheets"
+    },
+    {
+      "id": "sync-1791358468072",
+      "timestamp": "2026-10-07T07:34:27.795Z",
+      "type": "auto",
+      "status": "success",
+      "rowsCount": 1,
+      "message": "Auto-Sync WhatsApp: Laporan OPT-2026-006 (Padi Sawah - Organisme Pengganggu Tanaman (OPT)) dari LAPOR otomatis masuk ke Google Spreadsheets"
+    },
+    {
+      "id": "sync-1791182862248",
+      "timestamp": "2026-10-05T06:47:42.005Z",
+      "type": "auto",
+      "status": "success",
+      "rowsCount": 1,
+      "message": "Auto-Sync WhatsApp: Laporan OPT-2026-004 (Padi Sawah - Wereng Batang Coklat (WBC)) dari Pak Supardi otomatis masuk ke Google Spreadsheets"
+    },
+    {
+      "id": "sync-1790830254610",
+      "timestamp": "2026-10-01T04:50:54.323Z",
+      "type": "auto",
+      "status": "success",
+      "rowsCount": 1,
+      "message": "Auto-Sync WhatsApp 24/7: Laporan OPT-2026-005 (Padi Sawah - Wereng Batang Coklat (WBC)) dari Pak Wayan otomatis masuk ke Google Spreadsheets"
+    },
+    {
+      "id": "sync-1790583443688",
+      "timestamp": "2026-09-28T08:17:23.405Z",
+      "type": "manual",
+      "status": "success",
+      "rowsCount": 20,
+      "message": "Sinkronisasi multi-sheet sukses: 1 Laporan OPT, 3 Pengguna & Hak Akses, 6 Master Kecamatan, 10 Master Komoditas (20 baris total)"
+    },
+    {
+      "id": "sync-1790582941671",
+      "timestamp": "2026-09-28T08:09:01.362Z",
+      "type": "manual",
+      "status": "success",
+      "rowsCount": 20,
+      "message": "Sinkronisasi multi-sheet sukses: 1 Laporan OPT, 3 Pengguna & Hak Akses, 6 Master Kecamatan, 10 Master Komoditas (20 baris total)"
+    },
+    {
+      "id": "sync-1790582536566",
+      "timestamp": "2026-09-28T08:02:16.566Z",
+      "type": "manual",
+      "status": "success",
+      "rowsCount": 1,
+      "message": "Sinkronisasi menyeluruh sukses: 1 baris data OPT berhasil disinkronkan ke Google Spreadsheets"
+    },
+    {
+      "id": "sync-1790352466005",
+      "timestamp": "2026-09-25T16:07:45.717Z",
+      "type": "auto",
+      "status": "success",
+      "rowsCount": 1,
+      "message": "Auto-sync: Laporan baru OPT-2026-001 otomatis ditambahkan ke Google Spreadsheets"
+    },
+    {
+      "id": "sync-1790236722890",
+      "timestamp": "2026-09-24T07:58:42.890Z",
+      "type": "auto",
+      "status": "success",
+      "rowsCount": 5,
+      "message": "Integrasi Email Berhasil: Google Spreadsheet ditautkan ke penatalaksanabarangdkptph@gmail.com dengan hak akses Editor Penuh. Sebanyak 5 data pengaduan OPT otomatis tersinkronisasi."
+    },
+    {
+      "id": "sync-1790236638502",
+      "timestamp": "2026-09-24T07:57:18.502Z",
+      "type": "auto",
+      "status": "success",
+      "rowsCount": 5,
+      "message": "Integrasi Email Berhasil: Google Spreadsheet ditautkan ke penatalaksanabarangdkptph@gmail.com dengan hak akses Editor Penuh. Sebanyak 5 data pengaduan OPT otomatis tersinkronisasi."
+    },
+    {
+      "id": "sync-1790236266650",
+      "timestamp": "2026-09-24T07:51:06.650Z",
+      "type": "manual",
+      "status": "success",
+      "rowsCount": 5,
+      "message": "Sinkronisasi menyeluruh sukses: 5 baris data OPT berhasil disinkronkan ke Google Spreadsheets"
+    },
+    {
+      "id": "sync-1",
+      "timestamp": "2026-03-23T12:00:00.000Z",
+      "type": "auto",
+      "status": "success",
+      "rowsCount": 5,
+      "message": "Sinkronisasi otomatis berhasil: 5 baris laporan OPT termutakhirkan di Google Spreadsheets"
+    }
+  ],
+  "subdistricts": [
+    {
+      "name": "Kota Agung",
+      "targetAreaHa": 1250,
+      "coordinator": "Della Sefa Aulanda, A.Md.Ak.",
+      "id": "sub-1",
+      "description": "Ibukota & Pusat Komando SIGAP-OPT Tanggamus"
+    },
+    {
+      "id": "sub-2",
+      "name": "Kota Agung Barat",
+      "coordinator": "Budi Santoso, S.P",
+      "description": "Sentra Padi Sawah & Palawija",
+      "targetAreaHa": 1100
+    },
+    {
+      "name": "Kota Agung Timur",
+      "targetAreaHa": 980,
+      "coordinator": "Budi Santoso, S.P",
+      "id": "sub-3",
+      "description": "Sentra Tanaman Pangan & Hortikultura"
+    },
+    {
+      "id": "sub-4",
+      "targetAreaHa": 1450,
+      "coordinator": "Dewi Lestari, A.Md",
+      "description": "Sentra Hortikultura Sayuran Dataran Tinggi",
+      "name": "Gisting"
+    },
+    {
+      "id": "sub-5",
+      "targetAreaHa": 1320,
+      "coordinator": "Dewi Lestari, A.Md",
+      "description": "Sentra Hortikultura & Padi Sawah",
+      "name": "Talang Padang"
+    },
+    {
+      "description": "Sentra Produksi Padi Sawah Irigasi & Jagung",
+      "coordinator": "Catur Jatmiko, S.P.",
+      "targetAreaHa": 1680,
+      "name": "Wonosobo",
+      "id": "sub-6"
+    },
+    {
+      "description": "Sentra Tanaman Pangan & Lumbung Padi Tanggamus",
+      "targetAreaHa": 1750,
+      "coordinator": "Harsono, S.P.",
+      "id": "sub-7",
+      "name": "Semaka"
+    },
+    {
+      "targetAreaHa": 1150,
+      "name": "Pematang Sawa",
+      "coordinator": "Muhajir, S.P.",
+      "id": "sub-8",
+      "description": "Wilayah Pesisir, Padi Ladang & Perkebunan"
+    },
+    {
+      "description": "Sentra Kopi Robusta & Hortikultura",
+      "coordinator": "Ir. Ahmad Subagyo, M.Si",
+      "targetAreaHa": 1400,
+      "name": "Pulau Panggung",
+      "id": "sub-9"
+    },
+    {
+      "id": "sub-10",
+      "coordinator": "Feri, S.P.",
+      "name": "Sumberejo",
+      "description": "Sentra Sayuran, Cabai & Padi",
+      "targetAreaHa": 1280
+    },
+    {
+      "name": "Ulu Belu",
+      "id": "sub-11",
+      "description": "Sentra Perkebunan Kopi & Sayuran Dataran Tinggi",
+      "targetAreaHa": 1350,
+      "coordinator": "Feri, S.P."
+    },
+    {
+      "description": "Sentra Jagung Hibrida & Padi Sawah",
+      "targetAreaHa": 1520,
+      "id": "sub-12",
+      "name": "Pugung",
+      "coordinator": "Budi Santoso, S.P"
+    },
+    {
+      "name": "Bulok",
+      "targetAreaHa": 940,
+      "coordinator": "Budi Santoso, S.P",
+      "id": "sub-13",
+      "description": "Kawasan Tanaman Pangan & Palawija"
+    },
+    {
+      "name": "Cukuh Balak",
+      "id": "sub-14",
+      "targetAreaHa": 870,
+      "description": "Kawasan Pesisir Selatan & Hortikultura",
+      "coordinator": "Muhajir, S.P."
+    },
+    {
+      "description": "Kawasan Pesisir Teluk Semangka",
+      "targetAreaHa": 760,
+      "id": "sub-15",
+      "coordinator": "Muhajir, S.P.",
+      "name": "Kelumbayan"
+    },
+    {
+      "coordinator": "Muhajir, S.P.",
+      "name": "Kelumbayan Barat",
+      "description": "Wilayah Pesisir & Pertanian Lahan Kering",
+      "id": "sub-16",
+      "targetAreaHa": 820
+    },
+    {
+      "name": "Limau",
+      "targetAreaHa": 890,
+      "coordinator": "Harsono, S.P.",
+      "id": "sub-17",
+      "description": "Kawasan Pesisir & Sentra Pisang Mas Tanggamus"
+    },
+    {
+      "name": "Air Naningan",
+      "targetAreaHa": 1200,
+      "coordinator": "Catur Jatmiko, S.P.",
+      "id": "sub-18",
+      "description": "Sentra Kopi, Lada & Hortikultura"
+    },
+    {
+      "name": "Bandar Negeri Semuong",
+      "coordinator": "Harsono, S.P.",
+      "targetAreaHa": 1300,
+      "description": "Sentra Padi Sawah Irigasi Sungai Semuong",
+      "id": "sub-19"
+    },
+    {
+      "name": "Gunung Alip",
+      "id": "sub-20",
+      "description": "Sentra Padi Sawah & Tanaman Sayuran",
+      "targetAreaHa": 910,
+      "coordinator": "Dewi Lestari, A.Md"
+    },
+    {
+      "createdAt": "2026-09-28T15:46:43.629Z",
+      "targetAreaHa": 1685,
+      "name": "Kecamatan Wonosobo",
+      "coordinator": "Catur Jatmiko, S.P.",
+      "id": "sub-1790610403629",
+      "description": "Padi sawah"
+    },
+    {
+      "id": "sub-1790610416175",
+      "name": "Kecamatan Semaka",
+      "description": "",
+      "targetAreaHa": 1805,
+      "coordinator": "Harsono, S.P.",
+      "createdAt": "2026-09-28T15:46:56.175Z"
+    },
+    {
+      "createdAt": "2026-09-28T15:47:12.175Z",
+      "name": "Kecamatan Pematang Sawa",
+      "targetAreaHa": 366,
+      "coordinator": "Muhajir, S.P.",
+      "id": "sub-1790610432175",
+      "description": ""
+    }
+  ],
+  "commodities": [
+    {
+      "varieties": "Inpari 32, Ciherang, Inpari 42, Sintanur, Mekongga",
+      "targetAreaHa": 12500,
+      "commonPests": [
+        "Wereng Batang Coklat (Nilaparvata lugens)",
+        "Penggerek Batang Padi / Sundep & Beluk (Scirpophaga spp.)",
+        "Tikus Sawah (Rattus argentiventer)",
+        "Penyakit Blas Daun & Leher (Pyricularia oryzae)",
+        "Hawar Daun Bakteri / Kresek (Xanthomonas oryzae)",
+        "Walang Sangit (Leptocorisa acuta)"
+      ],
+      "description": "Komoditas pangan utama sentra sawah irigasi teknis & tadah hujan di Kab. Tanggamus",
+      "name": "Padi Sawah",
+      "latinName": "Oryza sativa L.",
+      "category": "Tanaman Pangan",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "id": "comm-1"
+    },
+    {
+      "targetAreaHa": 1800,
+      "varieties": "Inpago 8, Inpago 9, Situ Patenggang, Danau Gaung",
+      "commonPests": [
+        "Penyakit Blas Daun (Pyricularia oryzae)",
+        "Ulat Grayak (Spodoptera litura)",
+        "Tikus Sawah",
+        "Lalat Bibit Padi"
+      ],
+      "description": "Pertanaman padi dataran perbukitan dan lahan kering",
+      "id": "comm-2",
+      "category": "Tanaman Pangan",
+      "name": "Padi Ladang / Gogo",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "latinName": "Oryza sativa L."
+    },
+    {
+      "targetAreaHa": 8200,
+      "varieties": "BISI 18, NK 212, Pioneer P27, Pertiwi 3, Bisi 2",
+      "commonPests": [
+        "Ulat Grayak Jagung / FAW (Spodoptera frugiperda)",
+        "Penyakit Bulai (Peronosclerospora maydis)",
+        "Penggerek Tongkol (Helicoverpa armigera)",
+        "Hawar Daun Jagung (Helminthosporium turcicum)"
+      ],
+      "description": "Komoditas palawija strategis untuk pakan dan industri olahan",
+      "name": "Jagung Hibrida",
+      "category": "Tanaman Pangan",
+      "id": "comm-3",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "latinName": "Zea mays L."
+    },
+    {
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "latinName": "Capsicum annuum L.",
+      "id": "comm-4",
+      "category": "Hortikultura",
+      "commonPests": [
+        "Antraknosa / Patek (Colletotrichum capsici)",
+        "Kutu Daun / Thrips (Thrips parvispinus)",
+        "Lalat Buah (Bactrocera dorsalis)",
+        "Virus Kuning / Gemini Virus",
+        "Layu Bakteri (Ralstonia solanacearum)"
+      ],
+      "varieties": "Lado F1, TM 999, Kawat, Kastilo, Red Kriss",
+      "targetAreaHa": 1450,
+      "description": "Sentra hortikultura sayuran bernilai ekonomis tinggi",
+      "name": "Cabai Merah Keriting"
+    },
+    {
+      "category": "Hortikultura",
+      "id": "comm-5",
+      "varieties": "Ori 212, Manu Preen, Bhaskara, Wijaya",
+      "targetAreaHa": 980,
+      "commonPests": [
+        "Virus Kuning / Gemini Virus",
+        "Kutu Kebul (Bemisia tabaci)",
+        "Antraknosa / Patek",
+        "Thrips dan Tungau"
+      ],
+      "latinName": "Capsicum frutescens L.",
+      "description": "Tanaman sayuran bumbu dapur dengan permintaan harian stabil",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "name": "Cabai Rawit"
+    },
+    {
+      "category": "Hortikultura",
+      "id": "comm-6",
+      "varieties": "Bima Brebes, Bauji, Tajuk, Trisula",
+      "targetAreaHa": 750,
+      "commonPests": [
+        "Ulat Grayak Bawang (Spodoptera exigua)",
+        "Penyakit Moler / Layu Fusarium (Fusarium oxysporum)",
+        "Bercak Ungu / Alternaria porri",
+        "Ulat Tanah (Agrotis ipsilon)"
+      ],
+      "description": "Komoditas pengatur inflasi daerah di sentra dataran rendah",
+      "latinName": "Allium cepa var. aggregatum",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "name": "Bawang Merah"
+    },
+    {
+      "name": "Kedelai",
+      "description": "Tanaman pangan kacang-kacangan penyubur tanah dan protein nabati",
+      "targetAreaHa": 1200,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "latinName": "Glycine max L.",
+      "commonPests": [
+        "Ulat Penggulung Daun (Lamprosema indicata)",
+        "Karat Daun Kedelai (Phakopsora pachyrhizi)",
+        "Penggerek Polong (Etiella zinckenella)",
+        "Ulat Grayak"
+      ],
+      "category": "Tanaman Pangan",
+      "id": "comm-7",
+      "varieties": "Anjasmoro, Grobogan, Dena 1, Burangrang"
+    },
+    {
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "latinName": "Solanum lycopersicum L.",
+      "id": "comm-8",
+      "category": "Hortikultura",
+      "commonPests": [
+        "Busuk Daun (Phytophthora infestans)",
+        "Lalat Buah (Bactrocera sp.)",
+        "Layu Bakteri (Ralstonia solanacearum)",
+        "Ulat Buah (Helicoverpa armigera)"
+      ],
+      "varieties": "Servo F1, Tymoti F1, Betavila, Gustavi",
+      "targetAreaHa": 620,
+      "description": "Hortikultura buah dataran menengah-tinggi",
+      "name": "Tomat"
+    },
+    {
+      "targetAreaHa": 3800,
+      "varieties": "Pisang Mas Tanggamus, Ambon Curup, Raja Bulu, Kepok Tanjung, Cavendish",
+      "commonPests": [
+        "Penyakit Darah Bakteri (Ralstonia syzygii)",
+        "Layu Fusarium / Penyakit Panama (Fusarium oxysporum f.sp. cubense)",
+        "Penggerek Bonggol / Batang (Cosmopolites sordidus)",
+        "Bercak Daun Sigatoka (Mycosphaerella fijiensis)"
+      ],
+      "description": "Komoditas hortikultura unggulan khas Tanggamus berorientasi ekspor dan pasar nasional",
+      "id": "comm-9",
+      "name": "Pisang",
+      "category": "Hortikultura",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "latinName": "Musa acuminata Colla"
+    },
+    {
+      "targetAreaHa": 5400,
+      "commonPests": [
+        "Penggerek Buah Kopi / PBKo (Hypothenemus hampei)",
+        "Karat Daun Kopi (Hemileia vastatrix)",
+        "Penggerek Cabang Kopi (Xylosandrus compactus)",
+        "Kutu Putih Kopi (Planococcus citri)"
+      ],
+      "varieties": "Klon Tugusari, BP 308, BP 42, SA 237",
+      "description": "Komoditas perkebunan rakyat andalan lereng Gunung Tanggamus dan sekitarnya",
+      "category": "Perkebunan",
+      "id": "comm-10",
+      "name": "Kopi Robusta",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "latinName": "Coffea canephora"
+    }
+  ],
+  "commodityCategories": [
+    {
+      "description": "Padi, jagung, kedelai, sorgum, ubi jalar, singkong pangan pokok",
+      "name": "Tanaman Pangan",
+      "id": "cat-1",
+      "color": "amber",
+      "icon": "🌾",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "name": "Hortikultura",
+      "description": "Sayuran daun/buah, cabai merah, bawang, tomat, dan buah-buahan unggul",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "icon": "🌶️",
+      "id": "cat-2",
+      "color": "emerald"
+    },
+    {
+      "icon": "☕",
+      "id": "cat-3",
+      "name": "Perkebunan",
+      "description": "Kopi robusta, kakao, lada hitam, cengkeh, kelapa sawit, karet",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "color": "amber"
+    },
+    {
+      "color": "teal",
+      "name": "Biofarmaka / Obat",
+      "description": "Jahe merah, kunyit, temulawak, serai wangi, kencur, kapulaga",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "id": "cat-4",
+      "icon": "🌿"
+    }
+  ],
+  "waSessions": {
+    "0855667788": {
+      "phone": "0855667788",
+      "step": "VILLAGE",
+      "data": {
+        "reporterName": "Ibu Ratna",
+        "reporterAddress": "Jl. Lintas Barat Pekon Gisting"
+      },
+      "lastActive": "2026-10-05T06:47:52.561Z"
+    },
+    "081299998888": {
+      "phone": "081299998888",
+      "step": "ADDRESS",
+      "data": {
+        "reporterName": "Joko Widodo"
+      },
+      "lastActive": "2026-10-05T07:45:41.095Z"
+    },
+    "08123456789": {
+      "phone": "08123456789",
+      "step": "NAME",
+      "data": {},
+      "lastActive": "2026-10-05T07:55:22.489Z"
+    },
+    "081211928435": {
+      "phone": "081211928435",
+      "step": "PHOTO",
+      "data": {
+        "reporterName": "supri",
+        "reporterAddress": "rt 10",
+        "village": "kampung baru",
+        "subdistrict": "kotaagung timur",
+        "areaAffectedHa": 1,
+        "commodity": "Padi Sawah",
+        "pestName": "Organisme Pengganggu Tanaman (OPT)"
+      },
+      "lastActive": "2026-10-06T09:07:50.086Z"
+    },
+    "081215530407": {
+      "phone": "081215530407",
+      "step": "PHOTO",
+      "data": {
+        "reporterName": "joko",
+        "reporterAddress": "kampung baru",
+        "village": "kampung baru",
+        "subdistrict": "kota agung timur",
+        "areaAffectedHa": 1,
+        "commodity": "Padi Sawah",
+        "pestName": "Organisme Pengganggu Tanaman (OPT)"
+      },
+      "lastActive": "2026-10-06T09:15:57.172Z"
+    },
+    "081215177173": {
+      "phone": "081215177173",
+      "step": "PHOTO",
+      "data": {
+        "reporterName": "joko",
+        "reporterAddress": "kampung baru",
+        "village": "kampung baru",
+        "subdistrict": "kota agung timur",
+        "areaAffectedHa": 1.5,
+        "commodity": "Padi Sawah",
+        "pestName": "Organisme Pengganggu Tanaman (OPT)"
+      },
+      "lastActive": "2026-10-06T09:23:18.470Z"
+    },
+    "081291213191": {
+      "phone": "081291213191",
+      "step": "NAME",
+      "data": {},
+      "lastActive": "2026-10-07T07:34:56.958Z"
+    },
+    "081298765432": {
+      "phone": "081298765432",
+      "step": "NAME",
+      "data": {},
+      "lastActive": "2026-10-18T16:43:58.911Z"
+    }
+  },
+  "baileysLogs": [
+    {
+      "id": "bl-1791358496959-p0py",
+      "direction": "outgoing",
+      "phone": "081291213191",
+      "senderName": "SIPOPT Bot",
+      "message": "🌾 *PENGADUAN SERANGAN HAMA/PENYAKIT (OPT) TANAMAN* 🌾\n_Dinas Ketahanan Pangan, Tanaman Pangan dan Hortikultura Kab. Tanggamus_\n\nSilakan jawab pertanyaan berikut secara bertahap:\n\n1️⃣ *Siapa nama Anda?*\n_(Ketik nama lengkap Anda, atau ketik *BATAL* untuk membatalkan)_",
+      "status": "sent",
+      "timestamp": "2026-10-07T07:34:56.959Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791358496957-1wz5",
+      "direction": "incoming",
+      "phone": "081291213191",
+      "senderName": "Petani Tanggamus",
+      "message": "lapor",
+      "status": "received",
+      "timestamp": "2026-10-07T07:34:56.957Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791358467794-7hg3",
+      "direction": "incoming",
+      "phone": "081298765432",
+      "senderName": "Pak Supardi (Petani)",
+      "message": "2 ha",
+      "status": "received",
+      "timestamp": "2026-10-07T07:34:27.794Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791358456525-2zcy",
+      "direction": "outgoing",
+      "phone": "081298765432",
+      "senderName": "SIPOPT Bot",
+      "message": "Luasan terserang: *1 Ha* tercatat.\n\n6️⃣ *Silakan upload/kirim foto lokasi terserang.*\n_(Kirimkan foto tanaman/lahan terserang langsung via WhatsApp ini. Jika belum memiliki foto atau ingin menyelesaikan sekarang, ketik *SELESAI* atau *LEWATI*)_",
+      "status": "sent",
+      "timestamp": "2026-10-07T07:34:16.525Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791358456520-jit8",
+      "direction": "incoming",
+      "phone": "081298765432",
+      "senderName": "Pak Supardi (Petani)",
+      "message": "talang  padang",
+      "status": "received",
+      "timestamp": "2026-10-07T07:34:16.520Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791358448841-is0v",
+      "direction": "outgoing",
+      "phone": "081298765432",
+      "senderName": "SIPOPT Bot",
+      "message": "Kecamatan *contoh* tercatat.\n\n5️⃣ *Berapa luasan lahan terserang?*\n_(Contoh: 1.5 Ha, 0.5 Hektar, atau 2 Ha. Anda juga bisa menyebutkan nama tanaman & hama jika tahu, misal: 1.5 Ha Padi terserang Wereng Coklat)_",
+      "status": "sent",
+      "timestamp": "2026-10-07T07:34:08.841Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791358448839-snku",
+      "direction": "incoming",
+      "phone": "081298765432",
+      "senderName": "Pak Supardi (Petani)",
+      "message": "contoh",
+      "status": "received",
+      "timestamp": "2026-10-07T07:34:08.839Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791358440158-soaz",
+      "direction": "outgoing",
+      "phone": "081298765432",
+      "senderName": "SIPOPT Bot",
+      "message": "Desa *lapor* tercatat.\n\n4️⃣ *Di mana kecamatan Anda?*\n_(Contoh: Kota Agung, Cimanuk, Gisting, Talang Padang, Wonosobo, Sumberejo, Pulau Panggung, Pugung, dll)_",
+      "status": "sent",
+      "timestamp": "2026-10-07T07:34:00.158Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791358440156-yvga",
+      "direction": "incoming",
+      "phone": "081298765432",
+      "senderName": "Pak Supardi (Petani)",
+      "message": "lapor",
+      "status": "received",
+      "timestamp": "2026-10-07T07:34:00.156Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791278604631-53hz",
+      "direction": "incoming",
+      "phone": "081215177173",
+      "senderName": "Petani Tanggamus",
+      "message": "selesai",
+      "status": "received",
+      "timestamp": "2026-10-06T09:23:24.631Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791278598472-tbrs",
+      "direction": "outgoing",
+      "phone": "081215177173",
+      "senderName": "SIPOPT Bot",
+      "message": "Luasan terserang: *1.5 Ha* tercatat.\n\n6️⃣ *Silakan upload/kirim foto lokasi terserang.*\n_(Kirimkan foto tanaman/lahan terserang langsung via WhatsApp ini. Jika belum memiliki foto atau ingin menyelesaikan sekarang, ketik *SELESAI* atau *LEWATI*)_",
+      "status": "sent",
+      "timestamp": "2026-10-06T09:23:18.472Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791278598470-7284",
+      "direction": "incoming",
+      "phone": "081215177173",
+      "senderName": "Petani Tanggamus",
+      "message": "1.5 ha",
+      "status": "received",
+      "timestamp": "2026-10-06T09:23:18.470Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791278587886-kitj",
+      "direction": "outgoing",
+      "phone": "081215177173",
+      "senderName": "SIPOPT Bot",
+      "message": "Kecamatan *kota agung timur* tercatat.\n\n5️⃣ *Berapa luasan lahan terserang?*\n_(Contoh: 1.5 Ha, 0.5 Hektar, atau 2 Ha. Anda juga bisa menyebutkan nama tanaman & hama jika tahu, misal: 1.5 Ha Padi terserang Wereng Coklat)_",
+      "status": "sent",
+      "timestamp": "2026-10-06T09:23:07.886Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791278587885-chwh",
+      "direction": "incoming",
+      "phone": "081215177173",
+      "senderName": "Petani Tanggamus",
+      "message": "kota agung timur",
+      "status": "received",
+      "timestamp": "2026-10-06T09:23:07.885Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791278581013-irq3",
+      "direction": "outgoing",
+      "phone": "081215177173",
+      "senderName": "SIPOPT Bot",
+      "message": "Desa *kampung baru* tercatat.\n\n4️⃣ *Di mana kecamatan Anda?*\n_(Contoh: Kota Agung, Cimanuk, Gisting, Talang Padang, Wonosobo, Sumberejo, Pulau Panggung, Pugung, dll)_",
+      "status": "sent",
+      "timestamp": "2026-10-06T09:23:01.013Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791278581012-8bbx",
+      "direction": "incoming",
+      "phone": "081215177173",
+      "senderName": "Petani Tanggamus",
+      "message": "kampung baru",
+      "status": "received",
+      "timestamp": "2026-10-06T09:23:01.012Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791278576365-wf00",
+      "direction": "outgoing",
+      "phone": "081215177173",
+      "senderName": "SIPOPT Bot",
+      "message": "Alamat tercatat: *kampung baru*.\n\n3️⃣ *Di mana desa Anda?*\n_(Sebutkan nama Desa / Pekon tempat lahan pertanian berada)_",
+      "status": "sent",
+      "timestamp": "2026-10-06T09:22:56.365Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791278576364-ad8l",
+      "direction": "incoming",
+      "phone": "081215177173",
+      "senderName": "Petani Tanggamus",
+      "message": "kampung baru",
+      "status": "received",
+      "timestamp": "2026-10-06T09:22:56.364Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791278568152-ogbg",
+      "direction": "outgoing",
+      "phone": "081215177173",
+      "senderName": "SIPOPT Bot",
+      "message": "Terima kasih Bpk/Ibu *joko*.\n\n2️⃣ *Di mana alamat Anda?*\n_(Sebutkan nama dusun, jalan, atau RT/RW tempat tinggal Anda. Ketik *BATAL* untuk membatalkan)_",
+      "status": "sent",
+      "timestamp": "2026-10-06T09:22:48.152Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791278568149-t82l",
+      "direction": "incoming",
+      "phone": "081215177173",
+      "senderName": "Petani Tanggamus",
+      "message": "joko",
+      "status": "received",
+      "timestamp": "2026-10-06T09:22:48.149Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791278566360-dy5r",
+      "direction": "outgoing",
+      "phone": "081215177173",
+      "senderName": "SIPOPT Bot",
+      "message": "🌾 *PENGADUAN SERANGAN HAMA/PENYAKIT (OPT) TANAMAN* 🌾\n_Dinas Ketahanan Pangan, Tanaman Pangan dan Hortikultura Kab. Tanggamus_\n\nSilakan jawab pertanyaan berikut secara bertahap:\n\n1️⃣ *Siapa nama Anda?*\n_(Ketik nama lengkap Anda, atau ketik *BATAL* untuk membatalkan)_",
+      "status": "sent",
+      "timestamp": "2026-10-06T09:22:46.360Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791278566359-tcog",
+      "direction": "incoming",
+      "phone": "081215177173",
+      "senderName": "Petani Tanggamus",
+      "message": "lapor",
+      "status": "received",
+      "timestamp": "2026-10-06T09:22:46.359Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791278481290-z3sh",
+      "direction": "outgoing",
+      "phone": "081298765432",
+      "senderName": "SIPOPT Bot",
+      "message": "Alamat tercatat: *LAPOR*.\n\n3️⃣ *Di mana desa Anda?*\n_(Sebutkan nama Desa / Pekon tempat lahan pertanian berada)_",
+      "status": "sent",
+      "timestamp": "2026-10-06T09:21:21.290Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791278481288-m7zt",
+      "direction": "incoming",
+      "phone": "081298765432",
+      "senderName": "Pak Supardi",
+      "message": "LAPOR",
+      "status": "received",
+      "timestamp": "2026-10-06T09:21:21.288Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791278343357-7er1",
+      "direction": "outgoing",
+      "phone": "081298765432",
+      "senderName": "SIPOPT Bot",
+      "message": "Terima kasih Bpk/Ibu *LAPOR*.\n\n2️⃣ *Di mana alamat Anda?*\n_(Sebutkan nama dusun, jalan, atau RT/RW tempat tinggal Anda. Ketik *BATAL* untuk membatalkan)_",
+      "status": "sent",
+      "timestamp": "2026-10-06T09:19:03.357Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791278343354-fqo5",
+      "direction": "incoming",
+      "phone": "081298765432",
+      "senderName": "Pak Supardi",
+      "message": "LAPOR",
+      "status": "received",
+      "timestamp": "2026-10-06T09:19:03.354Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791278167163-fesw",
+      "direction": "incoming",
+      "phone": "081215530407",
+      "senderName": "Petani Tanggamus",
+      "message": "selesai",
+      "status": "received",
+      "timestamp": "2026-10-06T09:16:07.163Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791278157173-3ouh",
+      "direction": "outgoing",
+      "phone": "081215530407",
+      "senderName": "SIPOPT Bot",
+      "message": "Luasan terserang: *1 Ha* tercatat.\n\n6️⃣ *Silakan upload/kirim foto lokasi terserang.*\n_(Kirimkan foto tanaman/lahan terserang langsung via WhatsApp ini. Jika belum memiliki foto atau ingin menyelesaikan sekarang, ketik *SELESAI* atau *LEWATI*)_",
+      "status": "sent",
+      "timestamp": "2026-10-06T09:15:57.173Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791278157172-nkgq",
+      "direction": "incoming",
+      "phone": "081215530407",
+      "senderName": "Petani Tanggamus",
+      "message": "1 ha",
+      "status": "received",
+      "timestamp": "2026-10-06T09:15:57.172Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791278148749-kk1q",
+      "direction": "outgoing",
+      "phone": "081215530407",
+      "senderName": "SIPOPT Bot",
+      "message": "Kecamatan *kota agung timur* tercatat.\n\n5️⃣ *Berapa luasan lahan terserang?*\n_(Contoh: 1.5 Ha, 0.5 Hektar, atau 2 Ha. Anda juga bisa menyebutkan nama tanaman & hama jika tahu, misal: 1.5 Ha Padi terserang Wereng Coklat)_",
+      "status": "sent",
+      "timestamp": "2026-10-06T09:15:48.749Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791278148747-6obt",
+      "direction": "incoming",
+      "phone": "081215530407",
+      "senderName": "Petani Tanggamus",
+      "message": "kota agung timur",
+      "status": "received",
+      "timestamp": "2026-10-06T09:15:48.747Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791278140997-bnnm",
+      "direction": "outgoing",
+      "phone": "081215530407",
+      "senderName": "SIPOPT Bot",
+      "message": "Desa *kampung baru* tercatat.\n\n4️⃣ *Di mana kecamatan Anda?*\n_(Contoh: Kota Agung, Cimanuk, Gisting, Talang Padang, Wonosobo, Sumberejo, Pulau Panggung, Pugung, dll)_",
+      "status": "sent",
+      "timestamp": "2026-10-06T09:15:40.997Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791278140996-ol1p",
+      "direction": "incoming",
+      "phone": "081215530407",
+      "senderName": "Petani Tanggamus",
+      "message": "kampung baru",
+      "status": "received",
+      "timestamp": "2026-10-06T09:15:40.996Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791278135486-cux6",
+      "direction": "outgoing",
+      "phone": "081215530407",
+      "senderName": "SIPOPT Bot",
+      "message": "Alamat tercatat: *kampung baru*.\n\n3️⃣ *Di mana desa Anda?*\n_(Sebutkan nama Desa / Pekon tempat lahan pertanian berada)_",
+      "status": "sent",
+      "timestamp": "2026-10-06T09:15:35.486Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791278135485-xfws",
+      "direction": "incoming",
+      "phone": "081215530407",
+      "senderName": "Petani Tanggamus",
+      "message": "kampung baru",
+      "status": "received",
+      "timestamp": "2026-10-06T09:15:35.485Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791278130580-3pj0",
+      "direction": "outgoing",
+      "phone": "081215530407",
+      "senderName": "SIPOPT Bot",
+      "message": "Terima kasih Bpk/Ibu *joko*.\n\n2️⃣ *Di mana alamat Anda?*\n_(Sebutkan nama dusun, jalan, atau RT/RW tempat tinggal Anda. Ketik *BATAL* untuk membatalkan)_",
+      "status": "sent",
+      "timestamp": "2026-10-06T09:15:30.580Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791278130579-jzr8",
+      "direction": "incoming",
+      "phone": "081215530407",
+      "senderName": "Petani Tanggamus",
+      "message": "joko",
+      "status": "received",
+      "timestamp": "2026-10-06T09:15:30.579Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791278127500-xy60",
+      "direction": "outgoing",
+      "phone": "081215530407",
+      "senderName": "SIPOPT Bot",
+      "message": "🌾 *PENGADUAN SERANGAN HAMA/PENYAKIT (OPT) TANAMAN* 🌾\n_Dinas Ketahanan Pangan, Tanaman Pangan dan Hortikultura Kab. Tanggamus_\n\nSilakan jawab pertanyaan berikut secara bertahap:\n\n1️⃣ *Siapa nama Anda?*\n_(Ketik nama lengkap Anda, atau ketik *BATAL* untuk membatalkan)_",
+      "status": "sent",
+      "timestamp": "2026-10-06T09:15:27.500Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791278127498-ltrr",
+      "direction": "incoming",
+      "phone": "081215530407",
+      "senderName": "Petani Tanggamus",
+      "message": "lapor",
+      "status": "received",
+      "timestamp": "2026-10-06T09:15:27.498Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791277675046-zewe",
+      "direction": "incoming",
+      "phone": "081211928435",
+      "senderName": "Petani Tanggamus",
+      "message": "lewati",
+      "status": "received",
+      "timestamp": "2026-10-06T09:07:55.046Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791277670087-zvq1",
+      "direction": "outgoing",
+      "phone": "081211928435",
+      "senderName": "SIPOPT Bot",
+      "message": "Luasan terserang: *1 Ha* tercatat.\n\n6️⃣ *Silakan upload/kirim foto lokasi terserang.*\n_(Kirimkan foto tanaman/lahan terserang langsung via WhatsApp ini. Jika belum memiliki foto atau ingin menyelesaikan sekarang, ketik *SELESAI* atau *LEWATI*)_",
+      "status": "sent",
+      "timestamp": "2026-10-06T09:07:50.087Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791277670085-9k7n",
+      "direction": "incoming",
+      "phone": "081211928435",
+      "senderName": "Petani Tanggamus",
+      "message": "1 ha",
+      "status": "received",
+      "timestamp": "2026-10-06T09:07:50.085Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791277651989-9eg5",
+      "direction": "outgoing",
+      "phone": "081211928435",
+      "senderName": "SIPOPT Bot",
+      "message": "Kecamatan *kotaagung timur* tercatat.\n\n5️⃣ *Berapa luasan lahan terserang?*\n_(Contoh: 1.5 Ha, 0.5 Hektar, atau 2 Ha. Anda juga bisa menyebutkan nama tanaman & hama jika tahu, misal: 1.5 Ha Padi terserang Wereng Coklat)_",
+      "status": "sent",
+      "timestamp": "2026-10-06T09:07:31.989Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791277651988-fqi6",
+      "direction": "incoming",
+      "phone": "081211928435",
+      "senderName": "Petani Tanggamus",
+      "message": "kotaagung timur",
+      "status": "received",
+      "timestamp": "2026-10-06T09:07:31.988Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791277645461-t5sb",
+      "direction": "outgoing",
+      "phone": "081211928435",
+      "senderName": "SIPOPT Bot",
+      "message": "Desa *kampung baru* tercatat.\n\n4️⃣ *Di mana kecamatan Anda?*\n_(Contoh: Kota Agung, Cimanuk, Gisting, Talang Padang, Wonosobo, Sumberejo, Pulau Panggung, Pugung, dll)_",
+      "status": "sent",
+      "timestamp": "2026-10-06T09:07:25.461Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791277645459-6p9y",
+      "direction": "incoming",
+      "phone": "081211928435",
+      "senderName": "Petani Tanggamus",
+      "message": "kampung baru",
+      "status": "received",
+      "timestamp": "2026-10-06T09:07:25.459Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791277640599-f3k2",
+      "direction": "outgoing",
+      "phone": "081211928435",
+      "senderName": "SIPOPT Bot",
+      "message": "Alamat tercatat: *rt 10*.\n\n3️⃣ *Di mana desa Anda?*\n_(Sebutkan nama Desa / Pekon tempat lahan pertanian berada)_",
+      "status": "sent",
+      "timestamp": "2026-10-06T09:07:20.599Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791277640597-kxfm",
+      "direction": "incoming",
+      "phone": "081211928435",
+      "senderName": "Petani Tanggamus",
+      "message": "rt 10",
+      "status": "received",
+      "timestamp": "2026-10-06T09:07:20.597Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791277635160-zeho",
+      "direction": "outgoing",
+      "phone": "081211928435",
+      "senderName": "SIPOPT Bot",
+      "message": "Terima kasih Bpk/Ibu *supri*.\n\n2️⃣ *Di mana alamat Anda?*\n_(Sebutkan nama dusun, jalan, atau RT/RW tempat tinggal Anda. Ketik *BATAL* untuk membatalkan)_",
+      "status": "sent",
+      "timestamp": "2026-10-06T09:07:15.160Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791277635159-3h6l",
+      "direction": "incoming",
+      "phone": "081211928435",
+      "senderName": "Petani Tanggamus",
+      "message": "supri",
+      "status": "received",
+      "timestamp": "2026-10-06T09:07:15.159Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791277630236-3b9t",
+      "direction": "outgoing",
+      "phone": "081211928435",
+      "senderName": "SIPOPT Bot",
+      "message": "🌾 *PENGADUAN SERANGAN HAMA/PENYAKIT (OPT) TANAMAN* 🌾\n_Dinas Ketahanan Pangan, Tanaman Pangan dan Hortikultura Kab. Tanggamus_\n\nSilakan jawab pertanyaan berikut secara bertahap:\n\n1️⃣ *Siapa nama Anda?*\n_(Ketik nama lengkap Anda, atau ketik *BATAL* untuk membatalkan)_",
+      "status": "sent",
+      "timestamp": "2026-10-06T09:07:10.236Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791277630235-53jp",
+      "direction": "incoming",
+      "phone": "081211928435",
+      "senderName": "Petani Tanggamus",
+      "message": "lapor",
+      "status": "received",
+      "timestamp": "2026-10-06T09:07:10.234Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791187010652-qjiv",
+      "direction": "outgoing",
+      "phone": "081298765432",
+      "senderName": "SIPOPT Bot",
+      "message": "🌾 *PENGADUAN SERANGAN HAMA/PENYAKIT (OPT) TANAMAN* 🌾\n_Dinas Ketahanan Pangan, Tanaman Pangan dan Hortikultura Kab. Tanggamus_\n\nSilakan jawab pertanyaan berikut secara bertahap:\n\n1️⃣ *Siapa nama Anda?*\n_(Ketik nama lengkap Anda, atau ketik *BATAL* untuk membatalkan)_",
+      "status": "sent",
+      "timestamp": "2026-10-05T07:56:50.652Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791187010649-2he5",
+      "direction": "incoming",
+      "phone": "081298765432",
+      "senderName": "Pak Supardi (Petani)",
+      "message": "lapor",
+      "status": "received",
+      "timestamp": "2026-10-05T07:56:50.649Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791186922490-vqi9",
+      "direction": "outgoing",
+      "phone": "08123456789",
+      "senderName": "SIPOPT Bot",
+      "message": "🌾 *PENGADUAN SERANGAN HAMA/PENYAKIT (OPT) TANAMAN* 🌾\n_Dinas Ketahanan Pangan, Tanaman Pangan dan Hortikultura Kab. Tanggamus_\n\nSilakan jawab pertanyaan berikut secara bertahap:\n\n1️⃣ *Siapa nama Anda?*\n_(Ketik nama lengkap Anda, atau ketik *BATAL* untuk membatalkan)_",
+      "status": "sent",
+      "timestamp": "2026-10-05T07:55:22.490Z",
+      "source": "baileys_whatsapp"
+    },
+    {
+      "id": "bl-1791186922488-wgxp",
+      "direction": "incoming",
+      "phone": "08123456789",
+      "senderName": "Petani Wonosobo",
+      "message": "LAPOR",
+      "status": "received",
+      "timestamp": "2026-10-05T07:55:22.488Z",
+      "source": "baileys_whatsapp"
+    }
+  ],
+  "whatsappContacts": [
+    {
+      "name": "Test Contact",
+      "phone": "08123456789",
+      "category": "petani",
+      "id": "ct-1"
+    }
+  ]
+}
